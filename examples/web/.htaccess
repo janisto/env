@@ -1,0 +1,6 @@
+
+# set environment
+SetEnv APP_ENV dev
+#SetEnv APP_ENV stage
+#SetEnv APP_ENV test
+#SetEnv APP_ENV prod
