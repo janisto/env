@@ -48,9 +48,6 @@ class Environment
      */
     public function __construct($configDir, $mode = null)
     {
-        if ($configDir === null) {
-            throw new \Exception('Path to configuration directory(s) missing.');
-        }
         $this->setConfigDir($configDir);
         $this->setMode($mode);
         $this->setEnvironment();
@@ -162,12 +159,13 @@ class Environment
      * For integer-keyed elements, the elements from the latter array will
      * be appended to the former array.
      *
-     * @param array $a array to be merged to
-     * @param array $b array to be merged from. You can specify additional
-     * arrays via third argument, fourth argument etc.
+     * params: $a, $b [, array $... ]
+     * $a array to be merged to
+     * $b array to be merged from. You can specify additional arrays via third argument, fourth argument etc.
+     *
      * @return array the merged array (the original arrays are not changed.)
      */
-    protected static function merge($a, $b)
+    protected static function merge()
     {
         $args = func_get_args();
         $res = array_shift($args);
