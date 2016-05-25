@@ -4,7 +4,8 @@ Environment class, used to set configuration depending on the server environment
 
 [![Software License](https://img.shields.io/badge/license-Unlicense-blue.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/janisto/env/master.svg?style=flat-square)](https://travis-ci.org/janisto/env)
-[![Quality Score](https://img.shields.io/scrutinizer/g/janisto/env.svg?style=flat-square)](https://scrutinizer-ci.com/g/janisto/env)
+[![Code Quality](https://img.shields.io/scrutinizer/g/janisto/env.svg?style=flat-square)](https://scrutinizer-ci.com/g/janisto/env)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/janisto/env.svg?style=flat-square)](https://scrutinizer-ci.com/g/janisto/env)
 [![Packagist Version](https://img.shields.io/packagist/v/janisto/env.svg?style=flat-square)](https://packagist.org/packages/janisto/env)
 [![Total Downloads](https://img.shields.io/packagist/dt/janisto/env.svg?style=flat-square)](https://packagist.org/packages/janisto/env)
 
